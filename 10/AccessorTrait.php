@@ -34,4 +34,5 @@ class MyTriangle {
 $cls = new MyTriangle();
 $cls->base = 10;
 $cls->height = 5;
+$cls->test = 1;
 print $cls->getArea();
