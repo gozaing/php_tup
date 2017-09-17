@@ -47,7 +47,7 @@ final class Suit extends Enum
 //インスタンス化
 //$suit = new Suit(Suit::SPADE);
 //$suit = new Suit(Suit::DIAMOND);
-$suit = new Suit(Suit::SAMPLE);
+$suit = new Suit(2);
 echo $suit. PHP_EOL; //toString実装済みなので文字列キャスト可能
 //var_dump($suit);
 
